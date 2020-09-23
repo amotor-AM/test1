@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Landing Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="landing_page.css">
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <img id="logo" src="/Images/Water My Plants.png" alt="Logo">
+        <div id="toggleIcon" onclick="menuToggle()"></div>
+        <div id="menu-overlay">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Meet The Team</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </header>
+    <body> 
+        <div class="header-img">
+            <img class="main" src ="Images/featured_image.png">
+            <div class ="text">
+                <h1>We Make Plant <br>Maintenance<br>
+                <span class="typeWords"></span>
+                <span class="words">
+                    <span data-text="Easy"></span>
+                    <span data-text="Fun"></span>
+                    <span data-text="Effortless"></span>
+                </span>
+            </h1>
+                <button class="fade">Join Now!</button>
+            </div>
+        </div>
+        <div class="container">
+            <section class="list">
+                <h2>What we offer</h2>
+                <div class="box_container">
+                    <div class="box"> 
+                        <div class="upper"></div>
+                        <h3>Organize</h3>
+                        <p>Keep track of all your plants in one place, right from the dashboard.</p>
+                    </div>
+                    <div class="box"> 
+                        <div class="upper"></div>
+                        <h3>Forget</h3>
+                        <p>We keep track of your watering history and remind you to water, so you don't have to remember when you last watered or when to water next.</p>
+                    </div>
+                    <div class="box"> 
+                        <div class="upper"></div>
+                        <h3>Record</h3>
+                        <p>Quicky record watering so you can get back to your other tasks.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="mission">
+                <h2> Our Mission</h2>
+                <p>In a time when there's an app for organizing just about every aspecto of our lives, this isn't easily available for plant care.</p>
+                <p>Water my Plants aims to help you get more organized with your plant care by keeping track of your plants. We want to help you become a savy plant parent and never again have to remember when you watered last.</p>
+            </section>
+            <div class="btn_wrap">
+                <button class="cta">Sign In</button>
+                <button class="cta">Sign Up</button>
+            </div>
+        </div> 
+    </body>
+    <footer>
+        <p>Copyright © Water my plants 2020</p>
+        <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li> 
+        </ul>
+    </footer>
+        <script type="text/Javascript" src="/landing_page.js"></script>
+    
+</html>
