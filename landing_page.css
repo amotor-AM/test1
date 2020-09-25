@@ -145,13 +145,19 @@ h1 {
   color: #7db569;
 }
 
+.top {
+  height: 0px;
+  width: 0px;
+  margin-left: 5.2%;
+
+}
+
 .fade {
   background: #669966;
-  margin-left: 12.5%;
   font-variant: small-caps;
   font-family: "Josefin Sans", sans-serif;
   color: white;
-  font-size: 2rem;
+  font-size: clamp(0.7rem, 3vw, 2rem);
   border: 3px solid #5b995b;
   padding: 14px 60px;
   overflow: hidden;
@@ -247,7 +253,9 @@ h2 {
 .btn_wrap {
   padding: 20vh 0 20vh 0;
   display: flex;
+  width: 100%;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .cta {
@@ -325,6 +333,10 @@ footer ul li a {
     margin: 5%;
     margin-bottom: 3%;
   }
+
+  .fade {
+    padding: 10px 45px;
+  }
 }
 
 
@@ -338,11 +350,16 @@ footer ul li a {
   }
 
   .fade {
-    font-size: 1.2rem;
+    padding: 6px 30px;
   }
 
   .cta {
     font-size: 1.2rem;
+  }
+
+  .cta:first-of-type {
+    margin-left: 40px;
+    margin-right: 60px;
   }
 
   #menu-overlay ul li a {
@@ -372,11 +389,12 @@ footer ul li a {
   }
 
   .cta {
-    padding: 10px 30px;
+    padding: 6px 20px;
   }
 
   .cta:first-of-type {
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
   }
 
   .text {
@@ -384,7 +402,6 @@ footer ul li a {
   }
 
   .fade {
-    font-size: 1rem;
-    padding: 10px 30px;
+    padding: 4px 20px;
   }
 }
