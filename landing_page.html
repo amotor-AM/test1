@@ -11,7 +11,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     </head>
     <header>
+
+        <!-- Logo -->
         <img id="logo" src="/Images/Water My Plants.png" alt="Logo">
+
+        <!-- Hamburger Menu -->
         <div id="toggleIcon" onclick="menuToggle()"></div>
         <div id="menu-overlay">
             <ul>
@@ -38,10 +42,15 @@
         </div>
     </header>
     <body> 
+
+        <!-- Header Image -->
         <div class="header-img">
             <img class="main" src ="/Images/featured_image.png">
+
+            <!-- Text Div -->
             <div class ="text">
                 <h1>We Make Plant <br>Maintenance<br>
+                    <!-- Div for JS typing words -->
                 <span class="typeWords"></span>
                 <span class="words">
                     <span data-text="Easy"></span>
@@ -49,6 +58,8 @@
                     <span data-text="Effortless"></span>
                 </span>
             </h1>
+
+            <!-- Sign Up Button -->
             <form class="top" action="https://water-my-plants-front-end.vercel.app/login">
                 <button class="fade" type="submit">Join Now!</button>
             </form>
@@ -57,17 +68,25 @@
         <div class="container">
             <section class="list">
                 <h2>What we offer</h2>
+                
+                <!-- Boxes -->
                 <div class="box_container">
+
+                    <!-- Box 1 -->
                     <div class="box"> 
                         <div class="upper"></div>
                         <h3>Organize</h3>
                         <p>Keep track of all your plants in one place, right from the dashboard.</p>
                     </div>
+
+                    <!-- Box 2 -->
                     <div class="box"> 
                         <div class="upper"></div>
                         <h3>Forget</h3>
                         <p>We keep track of your watering history and remind you to water, so you don't have to remember when you last watered or when to water next.</p>
                     </div>
+
+                    <!-- Box 3 -->
                     <div class="box"> 
                         <div class="upper"></div>
                         <h3>Record</h3>
@@ -75,11 +94,15 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Mission section -->
             <section class="mission">
                 <h2> Our Mission</h2>
                 <p>In a time when there's an app for organizing just about every aspecto of our lives, this isn't easily available for plant care.</p>
                 <p>Water my Plants aims to help you get more organized with your plant care by keeping track of your plants. We want to help you become a savy plant parent and never again have to remember when you watered last.</p>
             </section>
+
+            <!-- CTA Buttons -->
             <div class="btn_wrap">
             <form action="https://water-my-plants-front-end.vercel.app/login">
                 <button class="cta" type="submit">Sign In</button>
@@ -90,6 +113,8 @@
             </div>
         </div> 
     </body>
+
+    <!-- footer -->
     <footer>
         <p>Copyright © Water my plants 2020</p>
         <ul>
@@ -97,6 +122,8 @@
             <li><a href="https://test3-woad.vercel.app/about_us.html">About Us</a></li> 
         </ul>
     </footer>
+
+        <!-- Linking Javascript -->
         <script type="text/Javascript" src="/landing_page.js"></script>
     
 </html>
